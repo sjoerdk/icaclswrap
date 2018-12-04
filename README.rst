@@ -1,21 +1,21 @@
 ==============
-icacls_wrapper
+icaclswrap
 ==============
 
 
-.. image:: https://img.shields.io/pypi/v/icacls_wrapper.svg
-        :target: https://pypi.python.org/pypi/icacls_wrapper
+.. image:: https://img.shields.io/pypi/v/icaclswrap.svg
+        :target: https://pypi.python.org/pypi/icaclswrap
 
-.. image:: https://img.shields.io/travis/sjoerdk/icacls_wrapper.svg
-        :target: https://travis-ci.org/sjoerdk/icacls_wrapper
+.. image:: https://img.shields.io/travis/sjoerdk/icaclswrap.svg
+        :target: https://travis-ci.org/sjoerdk/icaclswrap
 
 .. image:: https://readthedocs.org/projects/icacls-wrapper/badge/?version=latest
         :target: https://icacls-wrapper.readthedocs.io/en/latest/?badge=latest
         :alt: Documentation Status
 
 
-.. image:: https://pyup.io/repos/github/sjoerdk/icacls_wrapper/shield.svg
-     :target: https://pyup.io/repos/github/sjoerdk/icacls_wrapper/
+.. image:: https://pyup.io/repos/github/sjoerdk/icaclswrap/shield.svg
+     :target: https://pyup.io/repos/github/sjoerdk/icaclswrap/
      :alt: Updates
 
 
@@ -30,7 +30,9 @@ Windows ACL permissions management through wrapping calls to icacls windows exec
 Features
 --------
 
-* TODO
+* Call windows executable 'icacls' to set persmissions with windows access control lists
+* Wraps calls as python functions, return values as python objects and exceptions
+* Downside: only works with access to the windows 'icacls' command, on a windows machine
 
 Credits
 -------

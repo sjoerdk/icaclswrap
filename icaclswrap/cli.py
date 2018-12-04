@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
 
-"""Console script for icacls_wrapper."""
+"""Console script for icaclswrap."""
 import sys
 import click
 
 
 @click.command()
 def main(args=None):
-    """Console script for icacls_wrapper."""
+    """Console script for icaclswrap."""
     click.echo("Replace this message by putting your code into "
                "icaclswrap.cli.main")
     click.echo("See click documentation at http://click.pocoo.org/")

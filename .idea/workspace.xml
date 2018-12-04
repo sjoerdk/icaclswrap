@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="243618a0-2a3b-4d3d-b8ed-f1c6297da3f2" name="Default Changelist" comment="" />
+    <list default="true" id="243618a0-2a3b-4d3d-b8ed-f1c6297da3f2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE.md" beforeDir="false" afterPath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CONTRIBUTING.rst" beforeDir="false" afterPath="$PROJECT_DIR$/CONTRIBUTING.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.rst" beforeDir="false" afterPath="$PROJECT_DIR$/README.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/docs/conf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.rst" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/installation.rst" beforeDir="false" afterPath="$PROJECT_DIR$/docs/installation.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/make.bat" beforeDir="false" afterPath="$PROJECT_DIR$/docs/make.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/usage.rst" beforeDir="false" afterPath="$PROJECT_DIR$/docs/usage.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/icaclswrap/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/icaclswrap/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/icaclswrap/cli.py" beforeDir="false" afterPath="$PROJECT_DIR$/icaclswrap/cli.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/setup.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tox.ini" beforeDir="false" afterPath="$PROJECT_DIR$/tox.ini" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,16 +27,19 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/icaclswrap$pytest_in_tests.coverage" NAME="pytest in tests Coverage Results" MODIFIED="1543915800041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/icaclswrap$pytest_in_tests.coverage" NAME="pytest in tests Coverage Results" MODIFIED="1543917238522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/icaclswrap$Unittests_in_tests.coverage" NAME="Unittests in tests Coverage Results" MODIFIED="1543914894759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="356" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/icaclswrap/cli.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+            <state relative-caret-position="306">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="e#66#76#0" expanded="true" />
               </folding>
@@ -30,7 +51,7 @@
         <entry file="file://$PROJECT_DIR$/tests/test_cli.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="16" column="49" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="49" />
+              <caret line="16" column="49" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="49" />
               <folding>
                 <element signature="e#86#99#0" expanded="true" />
               </folding>
@@ -69,16 +90,38 @@
           <provider selected="true" editor-type-id="restructured-text-editor" />
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.travis.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/setup.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="27" column="48" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>icaclswrapper</find>
-      <find>icacls_wrapper</find>
       <find>folder_tools</find>
+      <find>icacl</find>
+      <find>icacls_wrapper</find>
+      <find>icacls_wrap</find>
     </findStrings>
     <replaceStrings>
       <replace>foldertool</replace>
+      <replace>icacls_wrap</replace>
+      <replace>icaclswrap</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -87,17 +130,19 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/README.rst" />
         <option value="$PROJECT_DIR$/../../../diag/utilities/trialbureau/windows_folder_permissions/folder_tools.py" />
         <option value="$PROJECT_DIR$/../../../diag/utilities/trialbureau/windows_folder_permissions/rights.py" />
         <option value="$PROJECT_DIR$/tests/test_cli.py" />
         <option value="$PROJECT_DIR$/icaclswrap/foldertool.py" />
         <option value="$PROJECT_DIR$/tests/test_foldertool.py" />
         <option value="$PROJECT_DIR$/icaclswrap/cli.py" />
+        <option value="$PROJECT_DIR$/README.rst" />
+        <option value="$PROJECT_DIR$/.travis.yml" />
+        <option value="$PROJECT_DIR$/setup.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1912" />
     <option name="width" value="1936" />
     <option name="height" value="1092" />
@@ -118,12 +163,12 @@
             <path>
               <item name="icaclswrap" type="b2602c69:ProjectViewProjectNode" />
               <item name="icaclswrap" type="462c0819:PsiDirectoryNode" />
-              <item name="icaclswrap" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="icaclswrap" type="b2602c69:ProjectViewProjectNode" />
               <item name="icaclswrap" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="icaclswrap" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -190,23 +235,11 @@
       <option name="presentableId" value="Default" />
       <updated>1543913498024</updated>
       <workItem from="1543913499236" duration="1893000" />
-      <workItem from="1543915428065" duration="270000" />
+      <workItem from="1543915428065" duration="2709000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_in_tests - 2018.12.04 at 10h 15m 28s.xml">
-      <configuration name="pytest in tests" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_tests - 2018.12.04 at 10h 17m 36s.xml">
-      <configuration name="pytest in tests" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_tests - 2018.12.04 at 10h 19m 12s.xml">
-      <configuration name="pytest in tests" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_tests - 2018.12.04 at 10h 20m 30s.xml">
-      <configuration name="pytest in tests" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_in_tests - 2018.12.04 at 10h 21m 12s.xml">
       <configuration name="pytest in tests" configurationId="tests" />
     </history-entry>
@@ -225,12 +258,24 @@
     <history-entry file="pytest_in_tests - 2018.12.04 at 10h 25m 15s.xml">
       <configuration name="pytest in tests" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_in_tests - 2018.12.04 at 10h 28m 19s.xml">
+      <configuration name="pytest in tests" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_tests - 2018.12.04 at 10h 28m 20s.xml">
+      <configuration name="pytest in tests" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_tests - 2018.12.04 at 10h 30m 01s.xml">
+      <configuration name="pytest in tests" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_tests - 2018.12.04 at 10h 53m 58s.xml">
+      <configuration name="pytest in tests" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2163000" />
+    <option name="totallyTimeSpent" value="4602000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="0" width="1936" height="1092" extended-state="0" />
+    <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
@@ -238,8 +283,8 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32916668" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32780084" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -249,6 +294,7 @@
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32995737" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -300,9 +346,6 @@
     <entry file="file://$PROJECT_DIR$/icaclswrap/rights.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.rst">
-      <provider selected="true" editor-type-id="restructured-text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/icaclswrap/foldertool.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -323,7 +366,7 @@
     <entry file="file://$PROJECT_DIR$/tests/test_cli.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="16" column="49" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="49" />
+          <caret line="16" column="49" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="49" />
           <folding>
             <element signature="e#86#99#0" expanded="true" />
           </folding>
@@ -332,11 +375,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/icaclswrap/cli.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="e#66#76#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.rst">
+      <provider selected="true" editor-type-id="restructured-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="27" column="48" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
         </state>
       </provider>
     </entry>

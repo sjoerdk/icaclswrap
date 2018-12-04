@@ -1,4 +1,4 @@
-Welcome to icacls_wrapper's documentation!
+Welcome to icaclswrap's documentation!
 ======================================
 
 .. toctree::

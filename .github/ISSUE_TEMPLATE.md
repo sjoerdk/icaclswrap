@@ -1,4 +1,4 @@
-* icacls_wrapper version:
+* icaclswrap version:
 * Python version:
 * Operating System:
 
