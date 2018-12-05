@@ -111,7 +111,7 @@ READ_DELETE = RightsCollection(
             SpecificRights.DELETE_CHILD,
         ]
     ),
-    description="Read and delete",
+    description="Read and delete files and folders, but not edit",
     inheritance_rights=set(
         [InheritanceRights.OBJECT_INHERIT, InheritanceRights.CONTAINER_INHERIT]
     ),

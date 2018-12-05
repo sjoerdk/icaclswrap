@@ -44,6 +44,11 @@ class WinFolderPermissionTool:
         inheritance_string = "".join(
             [x.code for x in list(rights_collection.inheritance_rights)]
         )
+
+        user_command_string = (
+            f"{username}:{inheritance_string}{specific_rights_string}"
+        )  # no spaces allowed here
+
         RECURSE_FLAG = "/T"
 
         try:
@@ -52,9 +57,7 @@ class WinFolderPermissionTool:
                     self.win_tool_name,
                     str(path),
                     "/grant",
-                    f"{username}:",
-                    inheritance_string,
-                    specific_rights_string,
+                    user_command_string,
                     RECURSE_FLAG,
                 ],
                 stdout=subprocess.PIPE,
@@ -91,7 +94,8 @@ class WinFolderPermissionTool:
             msg = f'Folder "{result.args[1]}" could not be found or you have no access. Original error: {result.stderr}'
             raise FolderAccessException(msg)
         elif result.returncode == 87:
-            raise InvalidParameterException(result.stderr)
+            msg = f"Exception \"{result.stderr}\" when trying to execute {' '.join(result.args)}"
+            raise InvalidParameterException(msg)
         elif result.returncode == 1332:
             msg = f'User "{result.args[3]}" is unknown. Original error: {result.stderr}'
             raise UnknownUserException(msg)
