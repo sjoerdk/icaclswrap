@@ -11,5 +11,6 @@ deploy:
     secure: Mk4EZHiwv2bK7JZ48WM0+EJvYTV0HC80t1oju0ck1kSnFzB/2/IGkTA5TwseAXDkiUh99O9I0qGiduTqmxPdkhnLp7sGz0sXvcRyzrf/6/wjCXstJlHA5vr5x/oXllCsOM5mJdd9aX9zXS5xSBHySJefFSewzAbkv6bExExFDE+bMN3h7p41C3AzQdMqokiVlR4AGRiVwpkhNRBRs9c/fU/M3j5SB4pf3ynODKY5W3onhKMynwkSimE7NFEN4zLKBr0avTJkiAuiPXA5TaZJeAZJ/mvuAYa4jMWB64b9dbcNU4iedI1fDL54X8UnURfO+q6+t3bN/3MTTCpr+G7gQ9eERqIdNxLnd3OiehRWzkrKI8VKPFzN1qsC7zS2gRla4eSnSoP+pJXw7rVlXEPSyFFZpwmuZ6WwhxdofcyG8vkEfsZ5CGx/W2DLXGwwygTBe9KSrpG4P6XgYhlY6s0pw1QqjdtHjCcOG6y15dMPzh3sSiLUEvY1acJqc/ql6XucycciapT7b7qeag+jY0msk3yHii6ZzSR1zRbWRNrUVV0fpz6xQ1G+/8xHqnIYCx2KxSxZWHYb9gRefItE1W++VR2e3xem456HFPNp1qKSS/DZQzBXYSaLeskYD+/dluL0QvcLamBBvwDE0AqoVnn55ZD892BPOV8NjX7QOcGkSoU=
   on:
     tags: true
+    all_branches: true
     repo: sjoerdk/icaclswrap
     python: 3.6
