@@ -34,6 +34,11 @@ class WinFolderPermissionTool:
         rights_collection: RightsCollection
             set these rights
 
+        Raises
+        ------
+        ACLToolException
+            When anything goes wrong setting permissions on folder
+
         """
 
         specific_rights_string = (
@@ -84,10 +89,6 @@ class WinFolderPermissionTool:
         ------
         ACLToolException:
             If anything went wrong
-
-        Returns
-        -------
-        Nothing if no errors found
 
         """
         if result.returncode == 5:
