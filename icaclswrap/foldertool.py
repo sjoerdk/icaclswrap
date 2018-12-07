@@ -98,7 +98,8 @@ class WinFolderPermissionTool:
             msg = f"Exception \"{result.stderr}\" when trying to execute {' '.join(result.args)}"
             raise InvalidParameterException(msg)
         elif result.returncode == 1332:
-            msg = f'User "{result.args[3]}" is unknown. Original error: {result.stderr}'
+            username, _ = result.args[3].split(':')
+            msg = f'User "{ username }" is unknown. Original error: { result.stderr }'
             raise UnknownUserException(msg)
         elif result.returncode != 0 or result.stderr:
             msg = f'Unspecified error (return code {result.returncode}): "{result.stderr}"'
