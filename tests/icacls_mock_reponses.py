@@ -8,7 +8,7 @@ from subprocess import CompletedProcess
 
 # making a mistake with parameters. In this case forgetting username
 ERROR_INVALID_PARAMETER = CompletedProcess(
-    args=["icacls", "C:\\a_directory", "/grant", "(CI)(OI)", "(GA)", "/T"],
+    args=["icacls", "C:\\a_directory", "/grant", ":(CI)(OI)(GA)", "/T"],
     returncode=87,
     stderr=b'Invalid parameter "(CI)(OI)"\r\n',
     stdout=b"",
@@ -20,9 +20,7 @@ SUCCESS_2_FILES = CompletedProcess(
         "icacls",
         r"C:\temp\icacls",
         "/grant",
-        "z428172",
-        "(CI)(OI)",
-        "(GR,DC)",
+        "z428172:(CI)(OI)(GR,DC)",
         "/T",
     ],
     returncode=0,
@@ -37,9 +35,7 @@ ERROR_NON_EXISTENT_FOLDER = CompletedProcess(
         "icacls",
         r"C:\\non_existent",
         "/grant",
-        "z428172",
-        "(CI)(OI)",
-        "(GR,DC)",
+        "z428172:(CI)(OI)(GR,DC)",
         "/T",
     ],
     returncode=5,
@@ -49,7 +45,7 @@ ERROR_NON_EXISTENT_FOLDER = CompletedProcess(
 
 # This user is not known in the windows environment.
 ERROR_UNKNOWN_USER = CompletedProcess(
-    args=["icacls", r"C:\\TEMP", "/grant", "unknown_user", "(CI)(OI)", "(GR,DC)", "/T"],
+    args=["icacls", r"C:\\TEMP", "/grant", "unknown_user:(CI)(OI)(GR,DC)", "/T"],
     returncode=1332,
     stderr=b"non_existent_user: No mapping between account names and security IDs was done.\r\n",
     stdout=b"Successfully processed 0 files; Failed processing 1 files\r\n",
@@ -57,7 +53,7 @@ ERROR_UNKNOWN_USER = CompletedProcess(
 
 
 ERROR_UNKNOWN_RESPONSE_CODE = CompletedProcess(
-    args=["icacls", r"C:\\TEMP", "/grant", "unknown_user", "(CI)(OI)", "(GR,DC)", "/T"],
+    args=["icacls", r"C:\\TEMP", "/grant", "unknown_user:(CI)(OI)(GR,DC)", "/T"],
     returncode=12345,
     stderr=b"",
     stdout=b"Something really weird",
@@ -65,7 +61,7 @@ ERROR_UNKNOWN_RESPONSE_CODE = CompletedProcess(
 
 # I would not put it past this executable to print to standard error but still have SUCCESS return code
 SUCCES_BUT_STDERR = CompletedProcess(
-    args=["icacls", r"C:\\TEMP", "/grant", "unknown_user", "(CI)(OI)", "(GR,DC)", "/T"],
+    args=["icacls", r"C:\\TEMP", "/grant", "unknown_user:(CI)(OI)(GR,DC)", "/T"],
     returncode=0,
     stderr=b"Everything went WRONG even though returncode is succes",
     stdout=b"",
