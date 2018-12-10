@@ -95,7 +95,6 @@ class RightsCollection:
         self.inheritance_rights = inheritance_rights
         self.description = description
 
-
 FULL_ACCESS = RightsCollection(
     specific_rights=set([SpecificRights.GENERIC_ALL]),
     description="Everything: read,write and delete",
@@ -108,10 +107,20 @@ READ_DELETE = RightsCollection(
         [
             SpecificRights.GENERIC_READ,
             SpecificRights.DELETE,
-            SpecificRights.DELETE_CHILD,
+            SpecificRights.DELETE_CHILD
         ]
     ),
     description="Read and delete files and folders, but not edit",
+    inheritance_rights=set(),
+)
+
+READ_ONLY = RightsCollection(
+    specific_rights=set(
+        [
+            SpecificRights.GENERIC_READ
+        ]
+    ),
+    description="Read only",
     inheritance_rights=set(
         [InheritanceRights.OBJECT_INHERIT, InheritanceRights.CONTAINER_INHERIT]
     ),

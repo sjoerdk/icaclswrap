@@ -61,7 +61,7 @@ class WinFolderPermissionTool:
                 [
                     self.win_tool_name,
                     str(path),
-                    "/grant",
+                    "/grant:r",
                     user_command_string,
                     RECURSE_FLAG,
                 ],
